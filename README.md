@@ -48,9 +48,9 @@ http://support.oracle.com
     $ vagrant up
     $ vagrant ssh
 
-## Charset Oracle
+## Oracle options in these branch
 
-WE8ISO8859P15
+charset : WE8ISO8859P15
 
 ## Run Oracle 12c Installation Script
 
