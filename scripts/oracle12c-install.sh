@@ -12,6 +12,13 @@ sudo cp /vagrant/env/etc/hosts /etc/hosts
 sudo cp /vagrant/env/etc/sysconfig/network /etc/sysconfig/network
 sudo /etc/init.d/network restart
 
+#create oracle
+su - root
+groupadd dba          # group of users to be granted SYSDBA system privilege
+groupadd oinstall     # group owner of Oracle files
+useradd -c "Oracle software owner" -g oinstall -G dba oracle
+passwd oracle –stdin oracle
+
 sudo hostname -v oracle12c.localdomain
 
 cd /vagrant/database_installer
