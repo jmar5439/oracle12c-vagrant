@@ -12,18 +12,14 @@ Following these instructions will create a VirtualBox VM, Install Oracle 12cR1 s
 
 http://virtualbox.com
 
-### Packer
-
-http://packer.io
-
 ### Vagrant
 
 http://vagrantup.com
 
 ### Oracle Linux 6.5
 
-1. Download Oracle Linux 6.5 DVD ISO
-2. Rename and move it to packer/oracle_linux_6.5.iso
+1. Use Vagrant box "rchouinard/oracle-65-x64"
+
 
 ### Oracle 12cR1
 
@@ -44,17 +40,6 @@ http://support.oracle.com
     $ cd patches
     $ chmod gou+r *.zip
 
-## Build Vagrant Box Image Using Packer
-
-    $ cd {project root}
-    $ cd packer
-    $ ./buildbox.sh
-
-## Import into Vagrant
-
-    $ cd {project root}
-    $ cd packer
-    $ ./importbox.sh
 
 ## Run Vagrant Box
 
