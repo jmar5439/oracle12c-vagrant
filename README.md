@@ -48,6 +48,10 @@ http://support.oracle.com
     $ vagrant up
     $ vagrant ssh
 
+## Charset Oracle
+
+WE8ISO8859P15
+
 ## Run Oracle 12c Installation Script
 
     [vagrant@vagrant-ol6 ~]$ sudo /vagrant/scripts/oracle12c-install.sh
