@@ -105,7 +105,7 @@ sudo -Eu oracle $ORACLE_HOME/bin/dbca -silent \
 -emConfiguration NONE \
 -datafileDestination /u01/oradata \
 -storageType FS \
--characterSet AL32UTF8 \
+-characterSet WE8ISO8859P15 \
 -memoryPercentage 40 \
 -listeners LISTENER
 
