@@ -46,7 +46,7 @@ if [ "$errorlevel" != "0" ] && [ "$errorlevel" != "6" ]; then
 fi
 
 #install patches before creating databases
-sudo su - oracle /vagrant/patches/installpatch.sh
+#sudo su - oracle /vagrant/patches/installpatch.sh
 
 cd
 
