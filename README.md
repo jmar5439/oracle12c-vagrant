@@ -22,7 +22,8 @@ http://vagrantup.com
 
 
 ### Oracle 12cR1
-#optional
+#### Optional (this branch has patches disabled)
+
 1. Download Database Install files (1 and 2) - http://www.oracle.com/technetwork/database/enterprise-edition/downloads/database12c-linux-download-1959253.html
 2. Place the zip archives in database_installer/
 
