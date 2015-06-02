@@ -10,7 +10,7 @@ Following these instructions will use an Oracle Linux 6.5 VirtualBox VM, Install
 
 ### VirtualBox
 
-http://virtualbox.com
+http://www.virtualbox.org
 
 ### Vagrant
 
