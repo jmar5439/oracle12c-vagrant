@@ -15,7 +15,6 @@ PDB =
   (DESCRIPTION =
     (ADDRESS = (PROTOCOL = TCP)(HOST = oracle12c)(PORT = 1521))
     (CONNECT_DATA =
-      (SERVER = DEDICATED)
       (SERVICE_NAME = pdb)
     )
   )
@@ -25,5 +24,6 @@ LISTENER_CDB12C =
   (ADDRESS = (PROTOCOL = TCP)(HOST = 0.0.0.0)(PORT = 1521))
 
 
-LISTENER =
-  (ADDRESS = (PROTOCOL = TCP)(HOST = 0.0.0.0)(PORT = 1521))
+
+
+
