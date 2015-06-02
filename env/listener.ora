@@ -6,4 +6,4 @@ LISTENER =
   )
  
 SECURE_REGISTER_LISTENER = (IPC)
-ADR_BASE_LISTENER = /u01/app/oracle %>
+ADR_BASE_LISTENER = /u01/app/oracle 
