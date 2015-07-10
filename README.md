@@ -67,7 +67,7 @@ charset : WE8ISO8859P15
     
     SYS@cdb12c>alter system set local_listener='LISTENER_CDB12C' scope=both;
     
-    Modifiy state of pluggable database and then
+Modifiy state of pluggable database and then
     
     $ sqlplus system@pdb
 
