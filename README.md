@@ -57,11 +57,16 @@ charset : WE8ISO8859P15
     [vagrant@vagrant-ol6 ~]$ sudo /vagrant/scripts/oracle12c-install.sh
 
 ## Connect to Database
+
     $ vagrant ssh
     $ service oracle start
     
     $ su - oracle
+    
     $ sqlplus / as sysdba
+    
+    SYS@cdb12c>alter system set local_listener='LISTENER_CDB12C' scope=both;
+    
     $ sqlplus system@pdb
 
   Default password for sys, system is vagrant - Port 1521 - service cdb12c (for container), pdb (for pluggable database)
