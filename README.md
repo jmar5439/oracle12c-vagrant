@@ -58,6 +58,9 @@ charset : WE8ISO8859P15
 
 ## Connect to Database
 
+    $ su - oracle
+    $ sqlplus / as sysdba
+
   Default password for sys, system is vagrant - Port 1521 - service cdb12c (for container), pdb (for pluggable database)
 
 ## Verifying Patch was Installed
