@@ -58,6 +58,8 @@ charset : WE8ISO8859P15
 
 ## Connect to Database
 
+    $ service oracle start
+
     $ su - oracle
     $ sqlplus / as sysdba
     $ sqlplus system@pdb
