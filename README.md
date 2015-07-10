@@ -152,3 +152,7 @@ charset : WE8ISO8859P15
     --------------------------------------------------------------------------------
 
     OPatch succeeded.
+    
+    
+    Chech listener issues
+https://gemsofprogramming.wordpress.com/2013/10/05/listen-oracle-12c-or-the-chapter-of-letting-the-listener-listen-on-a-non-default-port/
