@@ -67,6 +67,8 @@ charset : WE8ISO8859P15
     
     SYS@cdb12c>alter system set local_listener='LISTENER_CDB12C' scope=both;
     
+    Modifiy state of pluggable database and then
+    
     $ sqlplus system@pdb
 
   Default password for sys, system is vagrant - Port 1521 - service cdb12c (for container), pdb (for pluggable database)
