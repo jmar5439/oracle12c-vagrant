@@ -57,9 +57,9 @@ charset : WE8ISO8859P15
     [vagrant@vagrant-ol6 ~]$ sudo /vagrant/scripts/oracle12c-install.sh
 
 ## Connect to Database
-
+    $ vagrant ssh
     $ service oracle start
-
+    
     $ su - oracle
     $ sqlplus / as sysdba
     $ sqlplus system@pdb
